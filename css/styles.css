@@ -1,0 +1,53 @@
+h1 {
+  font-size: 30px;
+  text-align: center;
+  color: white;
+}
+
+body {
+  background-color: black;
+  color: Black;
+}
+
+img {
+  border: solid black 3px;
+  border-radius: 1%;
+}
+
+.header {
+  text-align: center;
+  font-family: monospace;
+  font-size: 15px;
+  background-color: lightgray;
+  border: solid white 3px;
+}
+
+.content1 {
+  background-color: lightgray;
+}
+
+.item1 {
+  border: solid white 1px;
+  background-color: lightgreen;
+  color: forestgreen;
+}
+
+.item2 {
+  border: solid grey 1px;
+  background-color: navy;
+}
+
+.img-small {
+  max-height: 75px;
+}
+
+.fakelink {
+  float: right;
+}
+
+.menu {
+  float: right;
+}
+
+
+
