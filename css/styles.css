@@ -4,7 +4,7 @@ h1 {
 }
 
 body {
-  background-color: darkgray;
+  background-color: slategray;
   color: Black;
   font-size: 20px;
   font-weight: 300%;
@@ -34,7 +34,7 @@ a {
 }
 
 .content {
-  background-color: lightgray;
+  background-color: darkgrey;
   overflow:hidden;
   max-height: fit-content;
   
@@ -68,16 +68,12 @@ a {
   border: solid black 3px;
 }
 
+.list {
+  border: solid black 3px;
+}
+
 .img-small {
   max-height: 75px;
-}
-
-.fakelink {
-  float: right;
-}
-
-.menu {
-  float: right;
 }
 
 img.roman {
@@ -94,4 +90,9 @@ img.roman {
 .credit {
   color: white;
   font-weight: 300px;
+}
+
+.head2 {
+  background-color: darkslategrey;
+  border: solid black 3px;
 }
