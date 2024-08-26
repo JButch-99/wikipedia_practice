@@ -1,12 +1,13 @@
 h1 {
-  font-size: 30px;
-  text-align: center;
+  font-size: 40px;
+  text-align: left;
   color: white;
 }
 
 body {
-  background-color: black;
+  background-color: darkgray;
   color: Black;
+  font-size: 20px;
 }
 
 img {
@@ -26,11 +27,11 @@ ul {
   border: solid white 3px;
 }
 
-.content1 {
+.content {
   background-color: lightgray;
-  box-sizing:content-box;
   overflow:hidden;
   max-height: fit-content;
+  
 }
 
 .item1 {
@@ -41,6 +42,16 @@ ul {
 .item2 {
   border: solid grey 1px;
   background-color: navy;
+}
+
+.item3 {
+  background-color: lightcoral;
+  border: solid red 2px;
+}
+
+.header4 {
+  background-color: pink;
+  border: solid coral 3px;
 }
 
 .img-small {
@@ -55,6 +66,8 @@ ul {
   float: right;
 }
 
-
-
-
+img.roman {
+  align-items: center;
+  width: 500px;
+  height: 400px;
+}
