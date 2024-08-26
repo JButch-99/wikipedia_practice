@@ -14,6 +14,10 @@ img {
   border-radius: 1%;
 }
 
+ul {
+  font-size: 20px;
+}
+
 .header {
   text-align: center;
   font-family: monospace;
@@ -24,12 +28,14 @@ img {
 
 .content1 {
   background-color: lightgray;
+  box-sizing:content-box;
+  overflow:hidden;
+  max-height: fit-content;
 }
 
 .item1 {
   border: solid white 1px;
   background-color: lightgreen;
-  color: forestgreen;
 }
 
 .item2 {
@@ -48,6 +54,7 @@ img {
 .menu {
   float: right;
 }
+
 
 
 
