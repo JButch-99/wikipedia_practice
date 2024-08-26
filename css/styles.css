@@ -1,6 +1,5 @@
 h1 {
   font-size: 40px;
-  text-align: left;
   color: white;
 }
 
@@ -8,6 +7,7 @@ body {
   background-color: darkgray;
   color: Black;
   font-size: 20px;
+  font-weight: 300%;
 }
 
 img {
@@ -16,6 +16,12 @@ img {
 }
 
 ul {
+  font-size: 20px;
+}
+
+a {
+  color:darkblue;
+  font: bolder;
   font-size: 20px;
 }
 
@@ -49,9 +55,17 @@ ul {
   border: solid red 2px;
 }
 
+.header3 {
+  background-color:coral;
+}
+
+.item4 {
+  background-color: violet;
+}
+
 .header4 {
-  background-color: pink;
-  border: solid coral 3px;
+  background-color: purple;
+  border: solid black 3px;
 }
 
 .img-small {
@@ -70,4 +84,14 @@ img.roman {
   align-items: center;
   width: 500px;
   height: 400px;
+}
+
+.bod {
+  border: solid black 3px;
+  margin: 10px 10px;
+}
+
+.credit {
+  color: white;
+  font-weight: 300px;
 }
