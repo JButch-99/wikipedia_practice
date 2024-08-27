@@ -3,6 +3,11 @@ h1 {
   color: white;
 }
 
+h3 {
+  font-size: 25;
+  text-decoration: underline black 3px;
+}
+
 body {
   background-color: slategray;
   color: Black;
@@ -17,6 +22,10 @@ img {
 
 ul {
   font-size: 20px;
+}
+
+li {
+  font-family: monospace;
 }
 
 a {
@@ -61,6 +70,7 @@ a {
 
 .item4 {
   background-color: violet;
+  border: solid purple 3px;
 }
 
 .header4 {
@@ -70,6 +80,17 @@ a {
 
 .list {
   border: solid black 3px;
+  background: grey;
+  font-size: 22px;
+}
+
+.central-li {
+  text-align: center;
+  list-style: none;
+}
+
+.biglist {
+  font-size: 22px;
 }
 
 .img-small {
@@ -88,11 +109,14 @@ img.roman {
 }
 
 .credit {
-  color: white;
   font-weight: 300px;
 }
 
 .head2 {
   background-color: darkslategrey;
   border: solid black 3px;
+}
+
+.layered {
+  text-align: center;
 }
